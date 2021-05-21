@@ -15,11 +15,12 @@
     window.$docsify = {
       name: 'Kataru',
       logo: '/_media/logo.svg',
-      repo: '',
       auto2top: true,
       loadSidebar: true,
       homepage: 'introduction.md',
       themeColor: '#8E86F0',
+      subMaxLevel: 4,
+      sidebarDisplayLevel: 2, 
       search: {
           noData: {
             '/': 'No results!',
@@ -29,11 +30,32 @@
             '/': 'Search',
           },
         },
+        darkMode: {
+          dark: {
+            background: "#131313",
+            toggleBtnBg: "#34495e",
+            textColor: "#F3F1EA"
+          },
+          light: {
+            background: "white",
+            toggleBtnBg: "var(--theme-color)",
+            textColor: "var(--text_color)"
+          }
+        }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- plugins -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" /> -->
+  <link rel="stylesheet" href="index.css"/>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <!-- dark mode
+  <link
+  rel="stylesheet"
+  href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"
+/>
+<script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script> -->
 </body>
 </html>

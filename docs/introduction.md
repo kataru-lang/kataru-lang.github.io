@@ -1,10 +1,13 @@
-<!-- _coverpage.md -->
-# Kataru 「カタル」 The minimal dialogue engine.
-
+# Kataru 「カタル」 The minimal dialogue engine written in Rust.
 - Simple and lightweight
-- Local namespaces and external function calls
-- VSCode and Unity integrations
-- And more
+- Organize dialogue, state, characters, and commands into local namespaces
+- Syntax highlighting and Unity integration
+  
+As well as conditionals, variables, and everything else you expect in a dialogue language.
 
-[Install](installation.md)
-[Syntax Reference](sytax.md)
+---
+
+<div class="special-btns">
+<a href="#/installation.md">Install</a>
+<a href="#/syntax.md">Syntax Reference</a>
+</div>

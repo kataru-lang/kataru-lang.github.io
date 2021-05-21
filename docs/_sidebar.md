@@ -1,4 +1,8 @@
-- [Introduction](introduction.md)
-- [Installation](installation.md)
-- [Syntax Reference](syntax.md)
-- [Unity API](unityapi.md)
+- **[Introduction](introduction.md)**
+- **[Installation](installation.md)**
+- **[Syntax Reference](syntax.md)**
+- **[Unity-Kataru Documentation](documentation/unity.md)**
+- **[Kataru Documentation](documentation/kataru.md)**
+---
+- **[Examples](examples.md)** 
+- **[How Would I...?](howwouldi.md)** 
