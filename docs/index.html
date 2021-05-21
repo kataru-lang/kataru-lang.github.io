@@ -16,11 +16,15 @@
       name: 'Kataru',
       logo: '/_media/logo.svg',
       auto2top: true,
+      loadFooter: true,
       loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       homepage: 'introduction.md',
       themeColor: '#8E86F0',
       subMaxLevel: 4,
-      sidebarDisplayLevel: 2, 
+      sidebarDisplayLevel: 1, 
       search: {
           noData: {
             '/': 'No results!',
@@ -51,6 +55,15 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <link rel="stylesheet" href="index.css"/>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  
+  <!-- syntax highlighting -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-csharp.min.js"></script>
+
+
+  <!-- footer -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+
   <!-- dark mode
   <link
   rel="stylesheet"

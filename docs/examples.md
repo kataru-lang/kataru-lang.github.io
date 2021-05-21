@@ -34,7 +34,7 @@ commands:
   Wait:
     duration: 0.3
 
-  $character.PlaySfx:
+  $character.SetAnimatorTrigger:
     clip: ""
 
 onExit:
@@ -53,7 +53,7 @@ YesCoffee:
   - May: Yeah, thanks!
   - set:
         $coffee +: 1
-  - May.PlaySfx: [ "HappyShout" ]
+  - May.SetAnimatorTrigger: [ "drinkcoffee" ]
   - call: End
 
 NoCoffee:

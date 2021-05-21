@@ -1,11 +1,6 @@
 Documentation for the [Kataru](https://github.com/Katsutoshii/kataru) repository.
 
-## Understanding the `Bookmark`
 
-Kataru keeps track of your position in a story via a `Bookmark`.
-For the simplest stories, this is as simple as keeping track of your current line number.
-But nonlinear stories with true agency need to evolve based on the decisions the user made in the past.
-Kataru keeps track of the state of the story inside of the `Bookmark` as well.
 
 ## Dialogue Runner
 

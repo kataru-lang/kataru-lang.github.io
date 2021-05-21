@@ -1,8 +1,18 @@
 - **[Introduction](introduction.md)**
 - **[Installation](installation.md)**
-- **[Syntax Reference](syntax.md)**
-- **[Unity-Kataru Documentation](documentation/unity.md)**
-- **[Kataru Documentation](documentation/kataru.md)**
+
+- **Main Concepts**
+  - [The Basics](concepts/basics.md)
+  - [Dialogue](concepts/dialogue.md)
+  - [State](concepts/state.md)
+  - [Logic](concepts/logic.md)
+
+- **Advanced Guides**
+  - [Namespaces](advanced/namespaces.md)
+  - [Saving and Loading](advanced/bookmark.md)
+
+- **[Unity-Kataru API](api/unity.md)**
+- **[Kataru API](api/kataru.md)**
 ---
 - **[Examples](examples.md)** 
 - **[How Would I...?](howwouldi.md)** 
