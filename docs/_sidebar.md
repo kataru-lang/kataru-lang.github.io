@@ -15,4 +15,4 @@
 - **[Kataru API](api/kataru.md)**
 ---
 - **[Examples](examples.md)** 
-- **[How Would I...?](howwouldi.md)** 
+- **[FAQ](faq.md)** 
