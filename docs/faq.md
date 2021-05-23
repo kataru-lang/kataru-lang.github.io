@@ -2,7 +2,7 @@
 
 ## Adoption
 ### How to mark a passage as visited?
-Check out <a href="#/syntax?id=onenter">onEnter</a> or <a href="#/syntax?id=onexit">onExit.</a>
+Check out <a href="#/concepts/logic?id=onenter">onEnter</a> or <a href="#/concepts/logic?id=onexit">onExit.</a>
 
 ### How to end dialogue prematurely?
 Create a global passage that only <a href="#/syntax?id=return">returns</a>. Call this whenever you have this use case.
