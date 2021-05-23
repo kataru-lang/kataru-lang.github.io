@@ -7,7 +7,7 @@ Handles dialogue and story state in Mirror rorriM (currently in progress).
 
 ## Kataru
 
-See [kataru-lang/kataru/examples/simple]([./examples/simple](https://github.com/kataru-lang/kataru/tree/main/examples/simple)) for a minimal example running the engine in the terminal.
+See [kataru-lang/kataru/examples/simple](https://github.com/kataru-lang/kataru/tree/main/examples/simple) for a minimal example running the engine in the terminal.
 
 
 ---
