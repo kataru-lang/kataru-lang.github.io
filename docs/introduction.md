@@ -1,4 +1,4 @@
-# Kataru 「カタル」 The minimal dialogue engine written in Rust.
+# Kataru 「カタル」 The minimal dialogue system written in Rust.
 - Simple and lightweight
 - Organize dialogue, state, characters, and commands into local namespaces
 - Syntax highlighting and Unity integration
