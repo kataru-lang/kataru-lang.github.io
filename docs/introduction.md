@@ -7,7 +7,7 @@ As well as conditionals, variables, and everything else you expect in a dialogue
 
 
 > [!WARNING]
-> Using Kataru in your project requires linking a WASM library or Native DLL, which means builds like Unity WebGL are not supported at this time.
+> Using Kataru in your project requires linking a WASM library or Native DLL, which means builds like Unity WebGL and Windows x86 are not supported at this time.
 
 
 <div class="special-btns">
