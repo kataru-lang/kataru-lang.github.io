@@ -30,7 +30,7 @@ To register your own c-sharp method as a command, tag it with the attribute `[Co
 
 To register character commands:
 1. Override the `Name` property to return the character's name
-3. In the `CommandHandler` attribute, add `local: true` as a parameter.
+3. In the `CommandHandler` attribute, add `character: true` as a parameter.
 
 To manually declare when the next Kataru line should be run:
 1. In the `CommandHandler` attribute, add `autoNext: false` as a parameter.
