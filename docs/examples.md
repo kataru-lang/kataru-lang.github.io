@@ -1,6 +1,7 @@
 # Examples <!-- {docsify-ignore-all} -->
 
 ## Unity-Kataru
+Unity Kataru Demo [(Github)](https://github.com/kataru-lang/unity-kataru-demo)
 
 Handles dialogue and story state in Mirror rorriM (currently in progress).
 <iframe width="560 !important" height="315" src="https://www.youtube.com/embed/GpKFAkyGaVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

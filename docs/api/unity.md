@@ -16,25 +16,27 @@ All MonoBehaviors that need to access data from Kataru should inherit from Handl
 
 ### General steps before registering
 1. Inherit class from `Handler`
-2. At some point after the function is done, call `Runner.Next` or `Runner.DelayedNext`
-   - For example, after a character's done speaking, wait for user input then go to the next line
-3. Declare the character or command in the relevant config
+2. Declare the character or command in the relevant config
 
 ### Registering characters
 To register a character:
 1. Override the `Name` property to return the character's name
 2. Tag the function with the attribute `[CharacterHandler]`
 
-Code samples can be found here (TODO).
+An example can be found [here](https://github.com/kataru-lang/unity-kataru-demo/blob/main/Assets/Scripts/Kataru/KataruSpeaker.cs).
 
 ### Registering commands
 To register your own c-sharp method as a command, tag it with the attribute `[CommandHandler]`.
 
 To register character-specific commands:
 1. Override the `Name` property to return the character's name
-2. Tag the function with the attribute `[CommandHandler(local: true)]`
+3. In the `CommandHandler` attribute, add `local: true` as a parameter.
 
-Code samples can be found here (TODO).
+To manually declare when the next Kataru line should be run:
+1. In the `CommandHandler` attribute, add `autoNext: false` as a parameter.
+2. Call `Runner.Next` or `Runner.DelayedNext` to declare when to trigger the next line.
+
+An example can be found [here](https://github.com/kataru-lang/unity-kataru-demo/blob/main/Assets/Scripts/Kataru/KataruScene.cs).
 
 ## Class Runner
 
