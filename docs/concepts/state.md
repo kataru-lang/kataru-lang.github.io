@@ -42,9 +42,12 @@ Expansion keywords are useful for creating shared behavior for all passages, suc
 To set state in a story, use the `set: {}` command.
 ```yml
 Passage: 
+  # Block syntax
   - set:
       $june: 1
       $may: $june
+  # Alternatively, you can use flow syntax
+  - set: {$june: 2, $may: 4}
 ```
 
 ## Expressions
@@ -52,8 +55,9 @@ Kataru supports any level of inline expressions within dialogue lines, condition
 ```yml
 Passage:
   - if $june < $may * 5 + 1:
-      June: Test ${june * 4.2}
-      set:
+      - June: Test {$june * 4.2}
+      - Test 2 $june 
+      - set:
         $june +: $may * 5
         $may: (5 + 5) / 10
 ```
