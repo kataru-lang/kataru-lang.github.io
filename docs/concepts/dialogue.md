@@ -1,7 +1,7 @@
 # Dialogue
 
 ## Characters
-Characters either key to dialogue lines or run <a href="#/concepts/logic?id=character-specific-commands">character-specific commands</a>.
+Characters either key to dialogue lines or run <a href="#/concepts/logic?id=character-commands">character commands</a>.
 
 Characters must be declared in the config under `characters` before being used. 
 

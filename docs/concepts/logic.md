@@ -16,7 +16,7 @@ Passage:
   - FadeToBlack: [] # Alternative way to do the above.
   - FadeToBlack: { duration: 1 } # Call with named parameters.
   - FadeToBlack: [ 1 ] # Call with positional parameters.
-  - $May.WalkTo: [ "June" ] # Call character-specific command.
+  - $May.WalkTo: [ "June" ] # Call character command.
 ```
 
 ### Declaring commands
@@ -38,8 +38,8 @@ Passage:
   - Command1: []
 ```
 
-### Character-specific commands
-To call the same command on multiple different instances, utilize character-specific commands. For example, if we have a `TurnOffLight` command and multiple lights we want to call this on, we could do the following:
+### character commands
+To call the same command on multiple different instances, utilize character commands. For example, if we have a `TurnOffLight` command and multiple lights we want to call this on, we could do the following:
 
 ```yaml
 ---
@@ -58,7 +58,7 @@ PassageA:
   - May: I can't see!
 ```
 
-Character-specific commands can be used on characters that speak as well. For example, say we have a couple of characters who should look happy or sad at the right moments. We could do this:
+character commands can be used on characters that speak as well. For example, say we have a couple of characters who should look happy or sad at the right moments. We could do this:
 
 ```yaml
 ---

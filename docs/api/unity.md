@@ -28,7 +28,7 @@ An example can be found [here](https://github.com/kataru-lang/unity-kataru-demo/
 ### Registering commands
 To register your own c-sharp method as a command, tag it with the attribute `[CommandHandler]`.
 
-To register character-specific commands:
+To register character commands:
 1. Override the `Name` property to return the character's name
 3. In the `CommandHandler` attribute, add `local: true` as a parameter.
 
