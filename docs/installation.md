@@ -11,4 +11,4 @@ For syntax highlighting in VSCode:
 2. Become familiar with <a href="#/api/unity?id=kataru-settings">Project Settings/Kataru Settings</a>.
 
 ## Non-Unity users
-[Install Kataru](https://github.com/kataru-lang/kataru)
+Download the source code of [Kataru](https://github.com/kataru-lang/kataru)
