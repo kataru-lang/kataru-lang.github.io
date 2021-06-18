@@ -49,7 +49,7 @@ Choices can optionally have a timeout. Implementing timeout behavior is the clie
 Walk:
   - May: Let's walk around.
   - choices:
-      Sure!: WalkSure
+      if $WalkSure.completed == 0: { Sure!: WalkSure }
       Maybe later? I'm not feeling well...: WalkLater
     timeout: 1
 
