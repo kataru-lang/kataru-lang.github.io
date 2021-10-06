@@ -76,3 +76,34 @@ PassageB:
 PassageHi:
   - June: Hey.
 ```
+
+## sub-namespaces
+
+If you ever find yourself wanting a namespace that inherits the config of another namespace, you can do so with the following syntax:
+
+```yaml
+# SuperNamespace.yml
+---
+namespace: SuperNamespace
+
+state:
+  $passage.completed: 0
+
+onExit:
+  set:
+    $passage.completed +: 1
+---
+```
+
+```yaml
+# SubNamespace.yml
+---
+namespace: SuperNamespace:SubNamespace
+
+state: 
+  test: false
+
+# Subnamespace will have inherited the state and onExit config of SuperNamespace,
+# as well as having a "test" variable.
+---
+```

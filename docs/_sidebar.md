@@ -10,6 +10,7 @@
 - **Advanced Guides**
   - [Namespaces](advanced/namespaces.md)
   - [Saving and Loading](advanced/bookmark.md)
+  - [Attributes](advanced/attributes.md)
 
 - **[Unity-Kataru API](api/unity.md)**
 - **[Kataru API](api/kataru.md)**
