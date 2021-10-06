@@ -95,6 +95,6 @@ JuneTalk:
 If you'd like to debug state while playing, switch the Save Path in Kataru Settings from .bin to .yml like so:
 ![Change save path in Kataru Settings](DebugState.png)
 
-Then view the save file created in that Save Path, relative to Application.persistentDataPath.
+Then view and/or edit the save file created in that Save Path, relative to Application.persistentDataPath.
 
 A save file will only be located there once <a href="#/api/unity?id=save">`Save()`</a> has been called.
