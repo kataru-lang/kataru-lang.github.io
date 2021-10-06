@@ -98,3 +98,6 @@ If you'd like to debug state while playing, switch the Save Path in Kataru Setti
 Then view and/or edit the save file created in that Save Path, relative to Application.persistentDataPath.
 
 A save file will only be located there once <a href="#/api/unity?id=save">`Save()`</a> has been called.
+
+> [!WARNING]
+> After changing .bin to .yml for debugging purposes, make sure to change it back before building for players since any player could just open a .yml file and change it if they wanted to.
