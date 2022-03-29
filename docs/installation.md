@@ -16,7 +16,7 @@ Alternatively, if your project is in a git repo, you can add it as a submodule b
 ```
 git submodule add https://github.com/kataru-lang/unity-kataru <path> 
 ```
-where `<path>` points to a directory inside of your project's `Assets` folder.
+where `<path>` points to a directory relative to the current working directory that you want the submodule to go into.
 
 ## Non-Unity users
 Download the source code of [Kataru](https://github.com/kataru-lang/kataru)
