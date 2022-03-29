@@ -10,5 +10,13 @@ For syntax highlighting in VSCode:
 ```
 2. Become familiar with <a href="#/api/unity?id=kataru-settings">Project Settings/Kataru Settings</a>.
 
+---
+
+Alternatively, if your project is in a git repo, you can add it as a submodule by running the following command from the root of your Unity project:
+```
+git submodule add https://github.com/kataru-lang/unity-kataru <path> 
+```
+where `<path>` points to a directory inside of your project's `Assets` folder.
+
 ## Non-Unity users
 Download the source code of [Kataru](https://github.com/kataru-lang/kataru)
