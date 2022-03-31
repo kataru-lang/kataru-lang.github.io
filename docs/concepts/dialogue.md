@@ -55,6 +55,12 @@ Walk:
 
 WalkSure:
   - May: Great!
+  - And here is an example of choices short-hand!
+  - choices:
+      Hi:
+        - Hello~
+      Bye:
+        - Goodbye!
 
 WalkLater:
   - return:
