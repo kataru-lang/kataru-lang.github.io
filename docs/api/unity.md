@@ -14,6 +14,10 @@ As long as the above is followed, feel free to move files around.
 The `Handler` class automatically manages subscription and disposal of listeners to the Runner.
 All MonoBehaviors that need to access data from Kataru should inherit from Handler and register their methods using `CommandHandler` and `CharacterHandler` attributes.
 
+> [!NOTE]
+> `CommandHandler` and `CharacterHandler` attributed methods must all be defined in the immediate class, _not in base classes_. We avoid checking methods defined in base classes to improve performance for command registration. For example, if you have a class `Foo` that inherits from `FooBase`, which in turn inherits from `Handler`, any methods in `FooBase` that are annotated as a `CommandHandler` will not be registered for the subclass `Foo`.
+
+
 ### General steps before registering
 1. Inherit class from `Handler`
 2. Declare the character or command in the relevant config
