@@ -3,12 +3,14 @@ Documentation for the [Unity-Kataru](https://github.com/kataru-lang/unity-kataru
 ## Kataru Settings
 Kataru Settings can be accessed via Project Settings/Kataru Settings or Kataru Settings.asset in the Assets folder. There are a couple important things to note:
 
-- All files written in Kataru that will be compiled into the final story should be in the "Story Path".
-- The "Bookmark Path" and "Target Path" are relative to StreamingAssets.
-- The "Save Path" is relative to Application.persistentDataPath.
-- Lastly, Kataru Settings.asset must stay at root level in a Resources folder.
+- **Story Path**: All files written in Kataru that will be compiled into the final story should be in the "Story Path".
+- **Bookmark Path**: Is relative to StreamingAssets. Should be of type `.yml`.
+- **Target Path**: Is relative to StreamingAssets. Can be of type `.yml` or `.bin`.
+- **Save Path**: Is relative to Application.persistentDataPath. Can be of type `.yml` or `.bin`.
 
-As long as the above is followed, feel free to move files around.
+Kataru Settings.asset must stay at root level in a Resources folder.
+
+As long as the above remains consistent, feel free to move files around.
 
 ## Inheriting from Handler
 The `Handler` class automatically manages subscription and disposal of listeners to the Runner.
