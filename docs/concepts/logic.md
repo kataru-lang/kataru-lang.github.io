@@ -38,6 +38,26 @@ Passage:
   - Command1: []
 ```
 
+Non-character commands can be declared in namespaces other than `global`.
+
+```yaml
+# file 1 
+---
+namespace: SomeNamespace
+commands: 
+  Command1:
+---
+```
+
+```yaml
+# file 2
+---
+namespace: OtherNamespace
+---
+Start:
+  - SomeNamespace:Command1: []
+```
+
 ### Character commands
 To call the same command on multiple different instances, utilize character commands. For example, if we have a `TurnOffLight` command and multiple lights we want to call this on, we could do the following:
 
