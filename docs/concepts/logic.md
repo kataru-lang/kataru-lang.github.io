@@ -38,7 +38,7 @@ Passage:
   - Command1: []
 ```
 
-### character commands
+### Character commands
 To call the same command on multiple different instances, utilize character commands. For example, if we have a `TurnOffLight` command and multiple lights we want to call this on, we could do the following:
 
 ```yaml
