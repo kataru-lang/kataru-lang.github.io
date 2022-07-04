@@ -42,6 +42,10 @@ To manually declare when the next Kataru line should be run:
 1. In the `CommandHandler` attribute, add `autoNext: false` as a parameter.
 2. Call `Runner.Next` or `Runner.DelayedNext` to declare when to trigger the next line.
 
+To manually set the name of the command instead of automatically using the c-sharp method name:
+1. Set the `name` parameter of the `CommandHandler` attribute.
+(This is useful if, for instance, you want the method name to be something other than the command name, or the command name is in a non-global namespace.)
+
 An example can be found [here](https://github.com/kataru-lang/unity-kataru-demo/blob/main/Assets/Scripts/Kataru/KataruScene.cs).
 
 ## Class Runner
